@@ -17,13 +17,12 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 items = {
     '⚔️': 'Sigil Espada Divina',
     '🛡️': 'Sigil Proteção',
-    '🃏': 'Carta MVP',
-    '🧩': 'Carta MVP (Fragmento)',
+    '👑': 'King Statue Chest',
     '🔥': 'Baú Pet Senhor do Fogo',
-    '🌟': 'Pena Luz/Sombra 4x',
-    '✨': 'Pena Luz/Sombra 1x',
-    '🌀': 'Pena Espaço/Tempo 4x',
-    '💫': 'Pena Espaço/Tempo 1x',
+    '🌟': 'Pena Luz/Sombra (L)',
+    '✨': 'Pena Luz/Sombra',
+    '🌀': 'Pena Espaço/Tempo (L)',
+    '💫': 'Pena Espaço/Tempo',
 }
 
 user_choices = {item: [] for item in items.values()}
